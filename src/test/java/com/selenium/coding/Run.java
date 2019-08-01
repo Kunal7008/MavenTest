@@ -11,6 +11,9 @@ public void get() {
 	WebDriver driver= new ChromeDriver();
 	driver.get("https://jio.com");
 	String s=driver.getTitle();
-	System.out.println(s);	
+	System.out.println(s);
+	System.out.println("get result");
+	System.out.println("get show");
+	System.out.println("get cappacino");
 }
 }
